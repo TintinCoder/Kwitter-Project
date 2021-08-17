@@ -1,0 +1,56 @@
+body{
+    background: rgb(230, 82, 82);
+    color: white;
+}
+#title{
+    color: white;
+}
+#name_1{
+    left: 20px;
+    position: absolute;
+}
+#name_2{
+    left: 20px;
+    top: 26px;
+    position: absolute;
+}
+#score1{
+    position: absolute;
+    left: 78px;
+    top: 10px; 
+}
+#score2{
+    position: absolute;
+    left: 95px;
+    top: 37px;
+}
+.answer{
+    color: black;
+    border-top: 8px solid purple;
+    border-radius: 15.5px;
+    width: 60vw;
+    height: 2.75vh;
+    background-color: #fff;
+    float: none;
+    padding-left: 15px;
+    text-align: left;
+}
+#number_1,
+#number_2{
+    width: 70vw;
+    height: 5vh;
+    color: black;
+    font-weight: bolder;
+}
+#answer_input,
+#check{
+    display: none;
+}
+#answer_input{
+    position: absolute;
+    left: 26vw;
+    top: 68vh;
+}
+#no{
+    display: none;
+}

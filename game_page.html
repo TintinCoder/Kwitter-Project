@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link rel="stylesheet" href="game_page.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="game_page.css">
+</head>
+<body onload="names();">
+    <center>
+        <div class="score">
+            <h4 id="name_1">null : </h4>
+            <span id="score1">0</span>
+            <h4 id="name_2">null : </h4>
+            <span id="score2">0</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 id="title">The Math Quiz Game !</h1>
+        <h2>Question Turn - <span id="question_turn"></span></h2>
+        <h2>Answer Turn - <span id="answer_turn"></span></h2>
+        <br>
+        <br>
+        <div class="answer" id="answer">
+            <h3 id="equation"></h3>
+            <br>
+            <h4 id="no">Answer: </h4><input type="text" placeholder="Answer" id="answer_input">
+            <br>
+            <button class="btn btn-info" id="check" onclick="check();">Check</button>
+        </div>
+        <br>
+        <br>
+        <h2>Number 1</h2>
+        <input type="text" id="number_1" placeholder="Enter First Number">
+        <br>
+        <br>
+        <h2>Number 2</h2>
+        <input type="text" id="number_2" placeholder="Enter First Number">
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="send();">Send Numbers</button>
+</body>
+<script src="game.js"></script>
+</html>
